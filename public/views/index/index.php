@@ -22,20 +22,20 @@
     <body>
 
         <div id="navigation" class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
+            <div class="container" id="container_nav">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><b>Nitro</b></a>
+                    <a class="navbar-brand" href="/"><b>Nitrous</b></a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#home" class="smothscroll">Home</a></li>
-                        <li><a href="#desc" class="smothscroll">Documentation</a></li>
-                        <li><a href="#showcase" class="smothScroll">Download</a></li>
+                        <li class="active"><a href="/" class="smothscroll">Home</a></li>
+                        <li><a href="/docs/index.html" class="smothscroll">Documentation</a></li>
+                        <li><a href="https://github.com/stairwell/Nitrous/archive/master.zip" class="smothScroll">Download</a></li>
                         <li><a href="https://github.com/stairwell/Nitrous" class="smothScroll">Git Repository</a></li>
                     </ul>
                 </div>
@@ -53,9 +53,9 @@
                     <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>Example headline.</h1>
+                            <h1>Welcome to Nitrous.</h1>
                             <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                            <p><a class="btn btn-lg btn-primary" href="/docs/index.html" role="button">Read the Docs</a></p>
                         </div>
                     </div>
                 </div>
@@ -105,8 +105,8 @@
                         <img class="img-circle" src="/resources/images/GitHub-Mark-120px-plus.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
                         <h2>Fork us on Github</h2>
                         <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-                    </div><!-- /.col-lg-4 -->
+                        <p><a class="btn btn-default" href="https://github.com/stairwell/Nitrous" role="button">View details &raquo;</a></p>
+                    </div>
                 </div> 
             </div>
 
