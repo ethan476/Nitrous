@@ -103,7 +103,7 @@
                     </div><!-- /.col-lg-4 -->
                     <div class="col-lg-4">
                         <img class="img-circle" src="/resources/images/GitHub-Mark-120px-plus.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-                        <h2>Last Git Commit</h2>
+                        <h2>Fork us on Github</h2>
                         <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
                         <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                     </div><!-- /.col-lg-4 -->

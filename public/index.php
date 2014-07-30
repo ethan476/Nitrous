@@ -14,8 +14,6 @@ try {
 }
 
 Bootstrap::setMode(Mode::DEVELOPMENT);
-
-
 Bootstrap::run();
 
 ?>
