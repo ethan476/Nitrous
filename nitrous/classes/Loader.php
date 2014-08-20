@@ -67,31 +67,7 @@ class Loader {
      * 
      */
     public static function database($database = "default", $return = FALSE, $overwrite = TRUE) {
-        if (file_exists(CONFIG_PATH . "Database.php") && self::includeClass("DatabaseDriverLoader", DATABASE_PATH)) { 
-            require_once CONFIG_PATH . "Database.php";
-
-            if (isset($db)) {
-                if (isset($db[$database])) {
-
-                    $tmp_db = DatabaseDriverLoader::loadDriver($db[$database]);
-                    
-                    /* add overwrite check */ 
-                    getInstance()->database = &$tmp_db;
-                    
-                    if ($return == TRUE) {
-                        return $tmp_db;
-                    } else {
-                        return TRUE;
-                    }
-                } else {
-                    throw new DatabaseNotFoundException();
-                }
-            } else {
-                throw new DatabaseNotFoundException();
-            }
-        } else {
-            throw new DatabaseNotFoundException();
-        }
+    
     }
 
     /**
